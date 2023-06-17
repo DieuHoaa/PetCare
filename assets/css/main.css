@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css?family=Mogra');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar a{
+    display: inline-flex;
+    text-decoration: none;
+    color: #ffffff;
+}
+.navbar a h2{
+    /* margin: 50px 50px 20px 10px; */
+    margin-top: 20px;
+    color: rgb(15, 47, 74);
+    font-family: 'Mogra';
+}
+
+.navbar .collapse .nav a {
+    color: #000;
+}
+.navbar .collapse .navbar a {
+    color: #000;
+}
+.navbar .collapse li a:hover{
+    background-color: rgb(97, 71, 39);
+    width: auto;
+    border-radius: 3px;
+    color: rgb(131, 101, 52);
+}
+.navbar .collapse li .dropdown-menu {
+    display: none;
+    position: absolute;
+    background: rgb(218, 174, 104);
+}
+.navbar .collapse li:hover .dropdown-menu {
+    display:block;
+}
+
+.container-fluid .m-md-5{
+    position: relative;
+}
+.container-fluid .m-md-5 .button-overlay{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.container-fluid .m-md-5 .text-up{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container-fluid .button-overlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+ul{
+    list-style: none;
+}
+
+.bg-sigh {
+    background-image: url("../../img/bg3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    max-width: 100%;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+    font-family: Arial;
+    color: rgb(0, 0, 0);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #b09c39;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #a0a15b;
+}
+
+button[type="butt"] {
+    display: block;
+    font-size: 16px;
+    background-color: #ff6f00;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button[type="butt"]:hover {
+    background-color: #a0a15b;
+}
+.social-sigh {
+    text-align: center;
+    margin-top: 20px;
+}
+  
+.social-sigh p {
+    margin-bottom: 10px;
+}
+.social-foot {
+    text-align: left;
+}
+
+.social-icon {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: #c3b31e;;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+}
+
+.social-icon:hover {
+    background-color: #383d2f;
+}
+
+.bg-sigh-up {
+    background-image: url("../../img/bg3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+    max-width: 100%;
+}
+
+.text-up {
+    margin-top: 0;
+    margin-bottom: 400px;
+}
+
+.form-group-check {
+    display: flex;
+}
+
+.input-group {
+    display: flex;
+}
+
+.bg-breadcrumb {
+    background-color: #ffffff;
+}
+
+.text-intro-comm {
+    color: #000000;
+}
+
+.shadow-dk{
+    display: none;
+}
+.card-columns .card:hover .shadow-dk {
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    background-color: #ffc107;
+    color: #000;
+    padding: 5px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+
+.card-columns .card .boder-text{
+    text-shadow: 1px 1px 4px #000, 2px 2px 6px #000;
+}
+  
+.section-title {
+    margin-bottom: 15px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #FFFFFF;
+    border: 1px solid #dee2e6;
+    border-left: 5px solid #FFCC00;
+}
+  
+.shadow-click {
+    display: none;
+}
+
+.d-flex:hover .shadow-click {
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    background-color: #ffc107;
+    color: #000;
+    padding: 5px;
+    position: absolute;
+    bottom: 0px;
+    width: 96%;
+}
+
+.product-details{
+	overflow:hidden;
+}
+
+#similar-product {
+    margin-top: 40px;
+}
+
+
+#reviews {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.product-details {
+  margin-bottom: 40px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.view-product {
+    position: relative;
+}
+
+.view-product img {
+    border: 1px solid #F7F7F0;
+    height: 380px;
+    width: 100%;
+}
+
+.view-product h3 {
+    background: #FE980F;
+    bottom: 0;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 0;
+    padding: 8px 20px;
+    position: absolute;
+    right: 0;
+}
+
+.product-information h2 {
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.product-information p {
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 5px;
+}
+
+.product-information span {
+    display: inline-block;
+    margin-bottom: 8px;
+    margin-top: 18px;
+}
+
+.product-information span span {
+    color: #FE980F;
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin-right: 20px;
+    margin-top: 0px;
+}
+.product-information span input {
+    border: 1px solid #DEDEDC;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    height: 33px;
+    outline: medium none;
+    text-align: center;
+    width: 50px;
+}
+
+
+
+
+

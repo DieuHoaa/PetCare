@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanh toán - PetCare</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon-re.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+    <header>
+        <div>
+            <div>           
+              <nav class="navbar navbar-expand-xl navbar-dark bg-warning">
+                <!-- Brand -->
+                <a class="navbar-brand logo" href="index.html">
+                  <img src="img/logopet.png" style="width:86px;">
+                  <h2>PetCare</h2>
+                </a>
+
+                <!-- Toggler/collapsibe Button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                   <span class="navbar-toggler-icon"></span>
+                </button>
+       
+                <!-- Navbar links -->
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                  <ul class="nav navbar-nav nav-pills nav-fill">
+                    <li class="nav-item dropdown">
+                      <a class="nav-link" href="#" id="navbardrop" data-toggle="dropdown">
+                        Vật nuôi</a>
+                      <div class="dropdown-menu">
+                         <a class="dropdown-item" href="petdog.html">Chó</a>
+                         <a class="dropdown-item" href="petcat.html">Mèo</a>
+                      </div>
+                   </li>         
+                    <li class="nav-item dropdown" class="nav-item dropdown">
+                      <a class="nav-link" href="service.html">
+                        Dịch vụ
+                      </a>   
+                    </li>
+                    <li class="nav-item dropdown" class="nav-item dropdown">
+                      <a class="nav-link" href="expert.html" id="navbardrop" data-toggle="dropdown">Chuyên gia</a>
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item" href="expert.html">Trong nước</a>
+                        <a class="dropdown-item" href="expert.html">Ngoài nước</a>
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="community.html">Cộng đồng</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="introduce.html">Giới thiệu</a>
+                    </li>
+                  </ul>
+
+                  <ul class="nav navbar-nav nav-pills nav-fill ml-auto">
+                    <form class="form-inline" action="/somepage">
+                      <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                      <button class="btn btn-success" type="butt">Tìm kiếm</button>
+                    </form>
+                    <li class="nav-item">
+                      <a class="nav-link" href="signin.html">Đăng nhập</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="sighup.html">Đăng ký</a>
+                    </li>
+                  </ul>
+                </div>
+             </nav>
+            </div>
+        </div>
+    </header>
+
+
+
+
+    <section class="bg-white">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <h1 class="h2 mb-4 mt-4">Thanh toán</h1>
+            </div>
+            <div class="col-md-6 mt-3 mt-md-0 mb-4">
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb justify-content-md-end bg-transparent p-0 m-0">
+                  <li class="breadcrumb-item"><a class="text-dark" href="#"><i class="bi bi-home me-1"></i>Trang Chủ</a>
+                  </li>
+                  <li class="breadcrumb-item active text-dark" aria-current="page">Dịch vụ thú cưng</li>
+                  <li class="breadcrumb-item active text-primary" aria-current="page">Thanh toán</li>
+                </ol>
+              </nav>
+            </div>
+          </div>
+        </div>
+    </section>
+      
+      
+      
+  <section>  
+    <div class="page-content">
+    
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-7 col-md-12">
+              <div class="checkout-form box-shadow white-bg">
+                <h4 class="mb-4 mt-4">Chi tiết thanh toán</h4>
+                <form class="row">
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <label class="mb-1">Họ và Tên</label>
+                      <input type="text" id="lname" class="form-control" placeholder="Nhập Họ và Tên">
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <label class="mb-1">Số điện thoại</label>
+                      <input type="text" id="phone" class="form-control" placeholder="Nhập số điện thoại">
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label class="mb-1">Tỉnh</label>
+                      <select name="calc_shipping_provinces" class="form-control" required="">
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label class="mb-1">Quận/Huyện</label>
+                      <select name="calc_shipping_district" class="form-control" required="">
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <label class="mb-1">Địa chỉ chi tiết</label>
+                      <input type="text" id="address" class="form-control" placeholder="Nhập chi tiết địa chỉ">
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <label class="mb-1">Ghi chú</label>
+                      <input type="text" id="address" class="form-control" placeholder="Nhập ghi chú (nếu có)">
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="col-lg-5 col-md-12 mt-5 mb-5 mt-lg-0">
+              <div class="p-3 p-lg-5 shadow-sm mb-5">
+                <h4 class="mb-3">Dịch vụ đã chọn</h4>
+                <ul class="list-unstyled">
+                  <li class="mb-3 border-bottom pb-3"><span> Tắm rửa </span> 80.000 VND</li>
+                  <li class="mb-3 border-bottom pb-3"><span> Đi dạo </span> 70.000 VND</li>
+                  <li><span><strong class="cart-total"> Tổng :</strong></span>  <strong class="cart-total">150.000 VND </strong>
+                  </li>
+                </ul>
+              </div>
+              <div class="cart-detail mb-4">
+                <h3 class="mb-3">Phương thức thanh toán</h3>
+                <div class="form-group">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" name="customcheckbox1" id="customcheckbox1">
+                      <label class="form-check-label" for="customcheckbox1">Tài khoản ngân hàng</label>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" name="customcheckbox2" id="customcheckbox2">
+                      <label class="form-check-label" for="customcheckbox2">Tiền mặt</label>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" name="customcheckbox3" id="customcheckbox3">
+                      <label class="form-check-label" for="customcheckbox3">Tài khoản Paypal</label>
+                    </div>
+                  </div>
+                  <div class="form-group mb-0">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      <label class="form-check-label" for="flexCheckDefault">Tôi đã đọc và đồng ý với điều khoản và điều kiện</label>
+                    </div>
+                  </div>
+              </div>
+              <button type="butt" class="btn btn-primary mb-3">Thanh toán</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </section>
+
+
+
+  <footer class="bg-warning">
+    <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-4 col-sm-6">
+            
+            <h4>Theo dõi chúng tôi tại:</h4>
+            <div class="social-foot">
+              <a href="#" class="social-icon"><i class="bi-facebook"></i></a>
+              <a href="#" class="social-icon"><i class="bi-instagram"></i></a>
+              <a href="#" class="social-icon"><i class="bi-youtube"></i></a>
+              <a href="#" class="social-icon"><i class="bi-twitter"></i></a> <br>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <h4>Trang web đã được xác thực</h4>
+            <ul>
+              <li><a href="#" class="text-dark">Về Dịch vụ</a></li>
+              <li><a href="#" class="text-dark">Về Chính sách bảo mật</a></li>
+              <li><a href="#" class="text-dark">Điều khoản của chúng tôi</a></li>
+              <li><a href="#" class="text-dark">Vận chuyển và trả hàng</a></li>
+              <li><a href="#" class="text-dark">Báo cáo</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <h4>Trợ giúp</h4>
+            <ul>
+                <li><a href="" class="text-dark"><i class="bi-geo-alt-fill"></i> 470 Trần Đại Nghĩa - Ngũ Hành Sơn - Hòa Quý - Đà Nẵng</a></li>
+                <li><i class="fa-solid bi-headset"></i> Người hỗ trợ:
+                    <br>Nguyễn Thị Diệu Hòa
+                    <a href="" class="text-dark"><i class="bi-envelope-fill"></i>hoantd.22itb@vku.udn.vn</a>
+                    <br>Nguyễn Thúy Hằng
+                    <a href="" class="text-dark"><i class="bi-envelope-fill"></i> hangnt.22git@vku.udn.vn</a>
+                </li>
+                <li><i class="bi-phone-fill"></i>Liên hệ: <a href="" class="text-dark">012345678</a></li>
+                <li><i class="bi-clock-fill"></i>Thời gian làm việc:
+                    <br>Thứ 2-Thứ 7:6h-20h
+                </li>
+              </ul>
+          </div>
+        </div>
+
+        <div class="row text-dark align-items-center">
+          <div class="col-md-7 mb-3">Copyright ©2023 Nguyễn Thị Diệu Hòa, Nguyễn Thúy Hằng <i class="lar la-heart text-primary heartBeat2"></i> 
+        </div>
+      </div>
+</footer>
+
+
+
+<script src="assets/js/jquery-3.7.0.js"></script>
+<script src="assets/js/bootstrap.js"></script>
+<script src="assets/js/owl.carousel.min.js"></script>
+<script src="assets/js/scrollspyy.min.js"></script>
+<script src="assets/js/custom1.js"></script>
+<script src="assets/js/districts.min.js"></script>
+<script src="assets/js/main.js"></script>
+
+
+
+
+</body>
+</html>
